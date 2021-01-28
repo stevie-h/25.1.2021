@@ -37,13 +37,12 @@ public class Country
 */
     public void printCountrySize()
     {
-
+        System.out.println(String.format("size of country: %d", size));
     }
 
     public void printSizePerCitizen()
     {
-
+        System.out.println(String.format("size per citizen: %d", size / numberOfCitizens));
     }
-
-    
+   
 }
